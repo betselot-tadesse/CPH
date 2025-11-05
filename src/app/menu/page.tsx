@@ -1,4 +1,6 @@
 'use client'
+export const dynamic = 'force-dynamic';
+
 
 import { useState, useEffect } from 'react'
 import { useSearchParams } from 'next/navigation'
@@ -93,7 +95,7 @@ export default function MenuPage() {
                 <div className="mb-4">
                   <Star className="w-8 h-8 text-amber-600 mx-auto mb-2" />
                   <p className="text-lg font-semibold text-amber-800 mb-2">Call us at:</p>
-                  <p className="text-3xl font-bold text-amber-900">+971 6 123 4567</p>
+                  <p className="text-3xl font-bold text-amber-900">722</p>
                 </div>
                 <div className="text-sm text-gray-600 space-y-1">
                   <p>🏨 Crystal Plaza Hotel, {t.location}</p>
